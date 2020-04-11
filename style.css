@@ -5,3 +5,9 @@ h1 {
   text-transform: capitalize;
   font-style: arial;
 }
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #ffa949;
+}
