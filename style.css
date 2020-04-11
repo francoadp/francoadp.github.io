@@ -11,3 +11,9 @@ h1 {
   padding-bottom: 60px;
   border-bottom: 10px solid #ffa949;
 }
+
+p {
+  padding: 50px 50px;
+  margin: 0;
+  color: green;
+}
