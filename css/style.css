@@ -49,7 +49,7 @@
 	/* Don't forget to set this to something that matches the design */
 	a
 	{
-		text-decoration: underline;
+		text-decoration: none;
 		color: #272727;
 	}
 
@@ -378,6 +378,12 @@
 
 	#copyright .container
 	{
+		color: white;
+	}
+
+	.right-sidebar {
+
+		text-align: right;
 	}
 
 	#copyright a
