@@ -391,3 +391,13 @@
 		text-decoration: none;
 		color: rgba(255,255,255,.3);
 	}
+
+.intro {
+	color: white;
+	background-color: #434a52;
+  margin-top:10px;
+	padding: 50px 80px;
+	font-size: 16px;
+	border-width: 10px;
+	border-style: black solid ;
+}
