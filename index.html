@@ -9,14 +9,24 @@
       font-style: arial;
       text-align: center;
       margin: 0em;
+      text-shadow: 0px 1px 0 black;
     }
 
+    .wildlife {
+      color: white;
+      text-align: left;
+      padding: 10% 24%;
+      border-top: 10px solid #ffa949;
+      margin: 105px 0 60px;
+      background: #434a52 url('css-html-javascript-image.png') no-repeat center;
+      background-size: cover;
 
     }
 
     a:link {
       color: rgb(255, 169, 73);
       text-decoration: none;
+      font-size: 18px;
     }
 
     a:visited {
@@ -56,8 +66,9 @@
       padding: 5em;
     }
 
-    .aligna {
+    .aligna:hover {
       text-align: right;
+      color: gold;
     }
 
     img {
@@ -76,36 +87,40 @@
     }
 
     .main-header {
-      padding-top: 170px;
+      padding-top: 10px;
       height: 850px;
-
-      background: #ffa949 url('css-html-javascript-image.png') no-repeat center;
       background-size: cover;
     }
 
     .uls {
-      font-size: 20px;
+      font-size: 27px;
       font-style: arial;
       padding: 20px;
       text-align: left;
       margin: 100px;
+    }
+
+    .lis:hover {
+      color: orange;
     }
   </style>
 </head>
 
 <body>
   <header class="main-header">
-    <span class="title"> CSS HTML JAVASCRIPT </span>
+    <span class="title"> CSS HTML</span>
     <h1> My experience with codding languages </h1>
-    <p>In the past moth I have been coding with CSS and HTML and I have noticed that even the most ridiculous and minimun error in your writting
-      can change a whole line, I sugest all codders to re-check all their work constantly for errors. Happy coding!</p>
+    <div class="wildlife">
+      <p>In the past moth I have been coding with CSS and HTML and I have noticed that even the most ridiculous and minimun error in your writting
+        can change a whole line, I sugest all codders to re-check all their work constantly for errors. Happy coding!</p>
+    </div>
   </header>
 
   <aside>
     <ul class="uls">
-      <li> about us </li>
-      <li> why franreviews?</li>
-      <li>home</li>
+      <li> <a href="#" clas="lis">about us </a></li>
+      <li> <a href="#" clas="lis">why franreviews?</a></li>
+      <li><a href="#" clas="lis">home</a></li>
 
     </ul>
   </aside>
